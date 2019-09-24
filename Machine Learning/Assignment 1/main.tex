@@ -1,0 +1,325 @@
+\documentclass[a4paper]{article}
+\usepackage{bm}
+\usepackage[leqno]{amsmath}
+\usepackage{mathtools}
+\usepackage{amssymb}
+
+\makeatletter
+\newcommand{\leqnomode}{\tagsleft@true}
+\newcommand{\reqnomode}{\tagsleft@false}
+\makeatother
+
+\input{head}
+\begin{document}
+
+%-------------------------------
+%	TITLE SECTION
+%-------------------------------
+
+\fancyhead[C]{}
+\hrule \medskip % Upper rule
+\begin{minipage}{0.295\textwidth} 
+\raggedright
+\footnotesize
+Julien Fer \hfill\\   
+10649441\hfill\\
+julien.fer88@gmail.com
+\end{minipage}
+\begin{minipage}{0.4\textwidth} 
+\centering 
+\large 
+Homework Assignment 1\\ 
+\normalsize 
+Machine Learning 1, 19/20\\ 
+\end{minipage}
+\begin{minipage}{0.295\textwidth} 
+\raggedleft
+\today\hfill\\
+\end{minipage}
+\medskip\hrule 
+\bigskip
+
+%-------------------------------
+%	CONTENTS
+%-------------------------------
+
+\section{Basic Linear Algebra and Derivatives}
+This part was not required to hand in.
+% \subsection{First Subtask}
+% Some equations
+% \begin{align*}
+% y &=  \sum\limits_{i,k} m_i \cdot f^k \\
+% x &=  
+% \underset{11}{\underbrace{3 + 8}} + 5 + 7
+% \end{align*}
+
+% \subsection{Second Subtask}
+% \blindtext
+
+% \bigskip
+
+%------------------------------------------------
+
+\section{Multivariate Calculus}
+\subsection{Question 2.1}
+\textbf{a)} The following gradient is asked: $\nabla_{\bm{\mu}} (\textbf{x} - \bm{\mu})^{T} \bm{\Sigma}^{-1} (\textbf{x} - \bm{\mu})$. In order to find the gradient the following variables are defined:
+\begin{flalign}
+\textbf{y}(\bm{\mu}) &\coloneqq \textbf{x}-\bm{\mu} &&
+\end{flalign}
+{\setlength{\abovedisplayskip}{0pt}%
+\begin{flalign}
+\textbf{f}(\textbf{y}(\bm{\mu})) &\coloneqq \textbf{y}^{T} \bm{\Sigma}^{-1} \textbf{y} &&
+\end{flalign}%
+}%
+and thus by combining (1) and (2) in the original equation we get:
+\begin{flalign}
+\nabla_{\bm{\mu}} &(\textbf{x} - \bm{\mu})^{T} \bm{\Sigma} (\textbf{x} - \bm{\mu}) = \nabla_{\bm{\mu}} \textbf{f} = \frac{\partial \textbf{f}}{\partial \textbf{y}} \frac{\partial \textbf{y}}{\partial \bm{\mu}}~~\text{with} &&
+\end{flalign}
+{\setlength{\abovedisplayskip}{0pt}%
+\begin{flalign}
+\frac{\partial \textbf{f}}{\partial \textbf{y}} &= \textbf{y}^{T} (\bm{\Sigma}^{-1} + (\bm{\Sigma}^{-1})^{T}) = 2\textbf{y}^{T} \bm{\Sigma}^{-1}~\text{(as $\bm{\Sigma}^{-1}$ is symmetric)} && \\
+\frac{\partial \textbf{y}}{\partial \bm{\mu}} &= -\textbf{\textit{I}}
+\end{flalign}%
+}%
+and by finally combining (4) and (5) in (3) we get the gradient:
+\begin{flalign*}
+\nabla_{\bm{\mu}} \textbf{f} = \frac{\partial \textbf{f}}{\partial \textbf{y}} \frac{\partial \textbf{y}}{\partial \bm{\mu}} =  -2\textbf{y}^{T} \bm{\Sigma}^{-1} \textbf{\textit{I}} = -2(\textbf{x} - \bm{\mu})^{T}\bm{\Sigma}^{-1} &&
+\end{flalign*}
+
+\bigskip
+
+\textbf{b)} The derivation of the gradient is as follows:
+\begin{flalign*}
+\nabla_{\textbf{q}} -\textbf{p}^{T} \text{log}(\textbf{q}) &= -\textbf{p}^{T} \nabla_{\textbf{q}} \text{log}(\textbf{q}) \\ 
+&= -\textbf{p}^{T}  
+\begin{bmatrix}
+\frac{\partial \text{log}(q_{1})}{\partial q_{1}}  & \dots & \frac{\partial \text{log}(q_{1})}{\partial q_{n}}  \\
+\vdots  & \ddots  & \vdots \\
+\frac{\partial \text{log}(q_{n})}{q_{1}} & \ddots   & \frac{\partial \text{log}(q_{n})}{\partial q_{n}}
+\end{bmatrix} \\
+&= -\textbf{p}^{T}
+\begin{bmatrix}
+\frac{1}{\partial q_{1}}  & \dots & 0  \\
+\vdots  & \ddots  & \vdots \\
+0 & \ddots   & \frac{1}{\partial q_{n}}
+\end{bmatrix} \\
+&= -\begin{bmatrix}
+\frac{p_{1}}{q_{1}} & \dots & \frac{p_{n}}{q_{n}}
+\end{bmatrix}
+&&
+\end{flalign*}
+
+\bigskip
+
+\textbf{c)} We want $ \nabla_{\textbf{W}} \textbf{f} $, where $ \textbf{f} = \textbf{Wx}$ with $ \textbf{W} \in \mathbb{R}^{2 \times 3} $ and $ \textbf{x} \in \mathbb{R}^{3} $. According to example 5.11 of the textbook MML the dimension of the gradient  $\nabla_{\textbf{W}} \textbf{f}$ will be $\mathbb{R}^{2 \times (2 \times 3)}$. Thus we have
+\begin{flalign}
+\nabla_{\textbf{W}} \textbf{f} &= \begin{bmatrix}
+\frac{\partial f_{1}}{\partial \textbf{W}} \\
+\frac{\partial f_{2}}{\partial \textbf{W}}
+\end{bmatrix} = \begin{pmatrix}
+\begin{bmatrix}
+\frac{\partial f_{1}}{\partial \textbf{W}_{1}} \\
+\frac{\partial f_{1}}{\partial \textbf{W}_{2}}
+\end{bmatrix} \\
+\begin{bmatrix}
+\frac{\partial f_{2}}{\partial \textbf{W}_{1}} \\
+\frac{\partial f_{2}}{\partial \textbf{W}_{1}}
+\end{bmatrix}
+\end{pmatrix}~ \text{with}~ f_{i} = \sum_{j=1}^{3} W_{ij} x_{j} ~~~i = 1, 2
+&& 
+\end{flalign}
+and for the partial derivatives we get:
+\begin{flalign}
+\frac{\partial f_{i}}{\partial W_{iq}} &= x_{q} &&
+\end{flalign}
+This results in:
+\begin{flalign}
+\frac{\partial f_{i}}{\partial \textbf{W}_{i}} &= \textbf{x}^{T} \in \mathbb{R}^{1 \times 1 \times 3}~~ \text{and} ~~\frac{\partial f_{i}}{\partial \textbf{W}_{j \neq i}} = \textbf{0}^{T}  \in \mathbb{R}^{1 \times 1 \times 3} &&
+\end{flalign}
+From the result in (8) together with (6) we can construct the gradient:
+\begin{flalign*}
+\nabla_{\textbf{W}} \textbf{f} &= \begin{bmatrix}
+\frac{\partial f_{1}}{\partial \textbf{W}} \\
+\frac{\partial f_{2}}{\partial \textbf{W}}
+\end{bmatrix} = \begin{pmatrix}
+\begin{bmatrix}
+\textbf{x}^{T} \\
+\text{0}^{T}
+\end{bmatrix} \\
+\begin{bmatrix}
+\textbf{0}^{T} \\
+\textbf{x}^{T}
+\end{bmatrix}
+\end{pmatrix} &&
+\end{flalign*}
+
+\bigskip
+
+\textbf{d)} The derivation of the gradient is as follows:
+\begin{flalign*}
+\nabla_{\textbf{W}} \textbf{f} &= \nabla_{\textbf{W}} \bigl((\bm{\mu} - \textbf{Wx})^{T} \bm{\Sigma}^{-1} (\bm{\mu} - \textbf{Wx})\bigr) \\
+&= \nabla_{\textbf{W}} \bigl((\bm{\mu}^{T} - \textbf{x}^{T}\textbf{W}^{T}) \bm{\Sigma}^{-1} (\bm{\mu} - \textbf{Wx})\bigr) \\
+&= \nabla_{\textbf{W}} (\bm{\mu}^{T}\bm{\Sigma}^{-1}\bm{\mu} - \bm{\mu}^{T}\bm{\Sigma}^{-1}\textbf{Wx} - \textbf{x}^{T}\textbf{W}^{T}\bm{\Sigma}^{-1}\bm{\mu} + \textbf{x}^{T}\textbf{W}^{T}\bm{\Sigma}^{-1}\textbf{Wx}) \\
+&= 0 -\bm{\Sigma}^{-1}\bm{\mu}\textbf{x}^{T} -\bm{\Sigma}^{-1}\bm{\mu}\textbf{x}^{T} + \bm{\Sigma}^{-1}\textbf{Wx}\textbf{x}^{T} \\
+&= -2 \bm{\Sigma}^{-1}(\bm{\mu} - \textbf{Wx})\textbf{x}^{T}
+&&
+\end{flalign*}
+
+\bigskip
+
+%------------------------------------------------
+
+\section{Probability Theory}
+\subsection{Question 3.1}
+
+\textbf{a)} Based on an individual's experience with criminal activities and the given circumstances (observation) it seems more likely (higher probability) that the man is a criminal.
+
+\bigskip
+
+\textbf{b)} Define the following variables:
+\begin{flalign*}
+C &= 
+\begin{cases}
+1, & \text{if}\ \textit{criminal} \\
+0, & \textit{otherwise}
+\end{cases} 
+&&
+\end{flalign*}
+{\setlength{\abovedisplayskip}{0pt}%
+\begin{flalign*}
+O &= 
+\begin{cases}
+1, & \text{if}\ \textit{observation is made} \\
+0, & \textit{otherwise}
+\end{cases} 
+&&
+\end{flalign*}%
+}%
+and thus the probability, based on our beliefs of making the observation, that the man is a criminal can be formulated as follows:
+\begin{flalign}
+p(C = 1 \mid O = 0) &= \frac{p(O = 0 \mid C = 1) p(C = 1)}{p(O = 0)} \\
+p(C = 1 \mid O = 1) &= \frac{p(O = 1 \mid C = 1) p(C = 1)}{p(O = 1)}
+&&
+\end{flalign}
+
+\bigskip
+
+\textbf{c)} We have the following probabilities:
+\begin{flalign*}
+p(C = 1) &= \frac{1}{10^{5}} \\
+p(C = 0) &= 1 - \frac{1}{10^{5}} \\
+p(O = 1 \mid C = 0) &= \frac{1}{10^{6}} \\
+p(O = 1 \mid C = 1) &= 0.8
+&&
+\end{flalign*}
+and we get the probability of the man being a criminal given the described observation using Bayes' rule (equation 10):
+\begin{flalign*}
+p(C = 1 \mid O = 1) &= \frac{p(O = 1 \mid C = 1) p(C = 1)}{p(O = 1)} \\
+&= \frac{p(O =1 \mid C = 1) p(C = 1)}{p(O =1 \mid C = 0) p(C = 0) + p(O = 1 \mid C = 1) p(C = 1)}~~\text{(product rule)} \\
+&= \frac{0.8 \cdot \frac{1}{10^{5}}}{\frac{1}{10^{6}} \cdot (1 - \frac{1}{10^{5}}) + 0.8 \cdot \frac{1}{10^{5}}} = \frac{8}{9} \approx 0.89
+&&
+\end{flalign*}
+
+\bigskip
+
+\textbf{d)} Given the new information it seems more reasonable to assume that, for example, the shopowner entered to protect its belongings. Hence, the observation will probably made more often than before, and thus increasing $p(O = 1)$. This in turn decreases the belief the man is a criminal when the observation is made ($p(C = 1 \mid O = 1)$) 
+
+\bigskip
+
+\subsection{Question 3.2}
+
+\textbf{a)} From Bishop 2.29 we get the following likelihood:
+{\setlength{\abovedisplayskip}{0pt}%
+\begin{flalign*}
+p(D \mid \rho) &= \prod_{n=1}^{N} \prod_{k=1}^{K} \rho_{k}^{x_{nk}}  = \prod_{k=1}^{K} \rho_{k}^{\sum_{n=1}^{N} x_{nk}} = \prod_{k=1}^{4} \rho_{k}^{\sum_{n=1}^{N} x_{nk}} = \prod_{k=1}^{4} \rho_{k}^{m_{k}}
+&&
+\end{flalign*}%
+}%
+with $m_{k} = \sum_{n} x_{nk}$
+
+\bigskip
+
+\textbf{b)} From Bishop 2.33 and with $m_{k}$ the same as in exercise a) we get the following maximum likelihood estimator:
+%{\setlength{\abovedisplayskip}{0pt}%
+\begin{flalign*}
+\rho_{k}^{ML} &= \frac{m_{k}}{N}
+&&
+\end{flalign*}
+%}%
+and thus we have the following maximum likelihood solution:
+{\setlength{\abovedisplayskip}{0pt}%
+\begin{flalign*}
+\rho_{ML} &= \begin{bmatrix}
+\frac{4}{8}, & 0, & 0, & \frac{4}{8}
+\end{bmatrix} = \begin{bmatrix}
+\frac{1}{2}, & 0, & 0, & \frac{1}{2}
+\end{bmatrix}
+&&
+\end{flalign*}%
+}%
+
+\bigskip
+
+\textbf{c)} From Bishop 2.5 we get the following likelihood:
+{\setlength{\abovedisplayskip}{0pt}%
+\begin{flalign*}
+p(D \mid \rho) &= \prod_{n=1}^{N} \rho^{x_{n}} (1 - \rho)^{1 - x_{n}}
+&&
+\end{flalign*}%
+}%
+
+\bigskip
+
+\textbf{d)} From Bishop 2.7 we get the following maximunm likelihood estimation:
+{\setlength{\abovedisplayskip}{0pt}%
+\begin{flalign*}
+\rho_{ML} &= \frac{1}{N} \sum_{n=1}^{N} x_{n} = \frac{6}{8} = 0.75
+&&
+\end{flalign*}%
+}%
+
+\bigskip
+
+\textbf{e)} The probability of drawing a red card is equal to the sumation of the probability to draw a card with suit heart or diamonds: $\rho = \rho_{1} + \rho_{3}$
+
+\bigskip
+
+\textbf{f)} The Bayes rule is given by:
+{\setlength{\abovedisplayskip}{0pt}%
+\begin{flalign*}
+\overbrace{p(\rho \mid D)}^{posterior} &= \frac{\overbrace{p(D \mid \rho)}^{likelihood} \overbrace{p(\rho)}^{prior}}{\underbrace{p(D)}_{evidence}}
+&&
+\end{flalign*}%
+}%
+
+\bigskip
+
+\textbf{g)} The derivation of the MAP estimator is as follows:
+{\setlength{\abovedisplayskip}{0pt}%
+\begin{flalign*}
+p(\rho \mid D) &= \frac{p(D \mid \rho) p(\rho)}{p(D)} \\
+&\propto p(D \mid \rho)p(\rho) ~~~\text{(as $p(D)$ does not depend on $\rho$)} \\
+&= \prod_{n=1}^{N} \rho^{x_{n}} (1 - \rho)^{1 - x_{n}} \frac{\Gamma(\alpha + \beta)}{\Gamma(\alpha) \Gamma(\beta)} \rho^{\alpha - 1} (1 - \rho)^{\beta - 1} \\
+&\propto \prod_{n=1}^{N} \rho^{x_{n}} (1 - \rho)^{1 - x_{n}} \rho^{\alpha - 1} (1 - \rho)^{\beta - 1}~~~\text{(as the $\Gamma()$ functions do not depend on $\rho$)} \\
+&= \rho^{\sum_{n=1}^{N} x_{n}} (1 - \rho)^{N - \sum_{n=1}^{N} x_{n}} \rho^{\alpha - 1} \rho^{\beta - 1} \\
+&= \rho^{\sum_{n=1}^{N} x_{n} + \alpha - 1} (1 - \rho)^{N - \sum_{n=1}^{N} x_{n} +\beta - 1} \\
+&= \rho^{m + \alpha - 1} (1 - \rho)^{N - m + \beta -1}
+&&
+\end{flalign*}%
+}%
+with $m = \sum_{n=1}^{N} x_{n}$. Subsequently we determine the derivative of the logarithm of the likelihood and set this equal to 0 (to find the optimal solution):
+\begin{flalign*}
+\frac{\partial \log(p(\rho \mid D))}{\partial \rho} &=	\frac{\partial}{\partial \rho} \bigl((m + \alpha - 1) \log(\rho) + (N - m + \beta -1) \log(1 - \rho)\bigr) \\
+&= \frac{m + \alpha - 1}{\rho} - \frac{N - m + \beta - 1}{1 - \rho} = 0 \\
+&\Leftrightarrow \frac{m + \alpha - 1}{\rho} = \frac{N - m + \beta - 1}{1 - \rho} \implies m + \alpha - 1 = N\rho + \alpha\rho + \beta\rho - 2\rho \\
+&\implies \rho_{MAP} = \frac{m + \alpha - 1}{N + \alpha + \beta - 2}
+&&
+\end{flalign*}
+As $m$ and $N$ are equal to each other this does not influence the parameter $\rho$. Thus to ensure an equal probability for drawing a red or black card one needs to solve the following equation:
+\begin{flalign*}
+\rho &= \frac{\alpha - 1}{\alpha + \beta - 2} = \frac{1}{2} \implies 2\alpha - 2 = \alpha + \beta - 2 \implies \alpha = \beta
+&&
+\end{flalign*}
+
+
+\end{document}
