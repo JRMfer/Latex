@@ -1,0 +1,1665 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.17)  24 SEP 2019 18:56
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2018-12-01>
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\bm.sty"
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+y"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen104
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtool
+s.sty"
+Package: mathtools 2019/07/31 v1.22 mathematical typesetting tools
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) ("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count100
+\calc@Bcount=\count101
+\calc@Adimen=\dimen112
+\calc@Bdimen=\dimen113
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count102
+\calc@Cskip=\skip48
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.
+sty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count103
+\l_MT_multwidth_dim=\dimen114
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen115
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen116
+\l_MT_above_intertext_sep=\dimen117
+\l_MT_below_intertext_sep=\dimen118
+\l_MT_above_shortintertext_sep=\dimen119
+\l_MT_below_shortintertext_sep=\dimen120
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (head.tex
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/blindtext\blindtex
+t.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count104
+\c@Blindtext=\count105
+\c@blind@countparstart=\count106
+\blind@countxx=\count107
+\blindtext@numBlindtext=\count108
+\blind@countyy=\count109
+\c@blindlist=\count110
+\c@blindlistlevel=\count111
+\c@blindlist@level=\count112
+\blind@listitem=\count113
+\c@blind@listcount=\count114
+\c@blind@levelcount=\count115
+\blind@mathformula=\count116
+\blind@Mathformula=\count117
+\c@blind@randomcount=\count118
+\c@blind@randommax=\count119
+\c@blind@pangramcount=\count120
+\c@blind@pangrammax=\count121
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\charter.sty
+"
+Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtyp
+e.sty"
+Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
+\MT@toks=\toks22
+\MT@count=\count122
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen121
+LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
+\MT@listname@count=\count123
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtyp
+e-pdftex.def"
+File: microtype-pdftex.def 2019/02/28 v2.7b Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 914.
+LaTeX Info: Redefining \lslig on input line 914.
+\MT@outer@space=\skip50
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtyp
+e.cfg"
+File: microtype.cfg 2019/02/28 v2.7b microtype main configuration file (RS)
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/07/19 3.33 The Babel package
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
+"
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\engl
+ish.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/07/19 3.33 Babel common definitions
+\babel@savecnt=\count124
+\U@D=\dimen122
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
+ef")
+\bbl@dirlevel=\count125
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ngerm
+an.ldf"
+Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthogra
+phy)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ngerm
+anb.ldf"
+Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 121.
+)))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amsthm.sty"
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip51
+\thm@postskip=\skip52
+\thm@headsep=\skip53
+\dth@everypar=\toks28
+) ("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count126
+\float@exts=\toks29
+\float@box=\box29
+\@float@everytoks=\toks30
+\@floatcapt=\box30
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
+sty"
+Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-
+hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub-
+generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
+sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.s
+ty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen123
+\Hy@linkcounter=\count127
+\Hy@pagecounter=\count128
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
+f"
+File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count129
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.
+cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `final' set `true' on input line 4424.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4424.
+Package hyperref Info: Hyper figures OFF on input line 4550.
+Package hyperref Info: Link nesting OFF on input line 4555.
+Package hyperref Info: Hyper index ON on input line 4558.
+Package hyperref Info: Plain pages OFF on input line 4565.
+Package hyperref Info: Backreferencing OFF on input line 4570.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4803.
+\c@Hy@tempcnt=\count130
+ ("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5156.
+\XeTeXLinkMargin=\dimen124
+\Fld@menulength=\count131
+\Field@Width=\dimen125
+\Fld@charsize=\dimen126
+Package hyperref Info: Hyper figures OFF on input line 6411.
+Package hyperref Info: Link nesting OFF on input line 6416.
+Package hyperref Info: Hyper index ON on input line 6419.
+Package hyperref Info: backreferencing OFF on input line 6426.
+Package hyperref Info: Link coloring ON on input line 6429.
+Package hyperref Info: Link coloring with OCG OFF on input line 6436.
+Package hyperref Info: PDF/A mode OFF on input line 6441.
+LaTeX Info: Redefining \ref on input line 6481.
+LaTeX Info: Redefining \pageref on input line 6485.
+\Hy@abspage=\count132
+\c@Item=\count133
+\c@Hfootnote=\count134
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
+ef"
+File: hpdftex.def 2019/06/12 v6.88h Hyperref driver for pdfTeX
+\Fld@listcount=\count135
+\c@bookmark@seq@number=\count136
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfile
+check.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip54
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.sty
+"
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count137
+\mult@box=\box31
+\multicol@leftmargin=\dimen129
+\c@unbalance=\count138
+\c@collectmore=\count139
+\doublecol@number=\count140
+\multicoltolerance=\count141
+\multicolpretolerance=\count142
+\full@width=\dimen130
+\page@free=\dimen131
+\premulticols=\dimen132
+\postmulticols=\dimen133
+\multicolsep=\skip55
+\multicolbaselineskip=\skip56
+\partial@page=\box32
+\last@line=\box33
+\maxbalancingoverflow=\dimen134
+\mult@rightbox=\box34
+\mult@grightbox=\box35
+\mult@gfirstbox=\box36
+\mult@firstbox=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\c@columnbadness=\count143
+\c@finalcolumnbadness=\count144
+\last@try=\dimen135
+\multicolovershoot=\dimen136
+\multicolundershoot=\dimen137
+\mult@nat@firstbox=\box55
+\colbreak@box=\box56
+\mc@col@check@num=\count145
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/marvosym\marvosym.
+sty"
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym\wasysym.st
+y"
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\rotating.
+sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count146
+\rotFPtop=\skip57
+\rotFPbot=\skip58
+\rot@float@box=\box57
+\rot@mess@toks=\toks31
+) ("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/censor\censor.st
+y"
+Package: censor 2018/11/15 3.22Provides capability for redaction of sensitive i
+nformation
+ ("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pbox\pbox.sty"
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+\pb@xlen=\skip59
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifnextok\ifnextok.
+sty"
+Package: ifnextok 2011/06/27 v0.3 test next token (UL)
+)
+\censorruledepth=\skip60
+\censorruleheight=\skip61
+\periodrlap=\skip62
+\afterperiodlap=\skip63
+\lletterlap=\skip64
+\rletterlap=\skip65
+\afterspacelap=\skip66
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+sty"
+\lst@mode=\count147
+\lst@gtempboxa=\box58
+\lst@token=\toks32
+\lst@length=\count148
+\lst@currlwidth=\dimen138
+\lst@column=\count149
+\lst@pos=\count150
+\lst@lostspace=\dimen139
+\lst@width=\dimen140
+\lst@newlines=\count151
+\lst@lineno=\count152
+\lst@maxwidth=\dimen141
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
+ty"
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count153
+\lst@skipnumbers=\count154
+\lst@framebox=\box59
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+cfg"
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+ (style/lstlisting.sty
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.
+sty"
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pseudocode\pseudoc
+ode.sty"
+** 
+** Document Style `pseudocode' - environment 
+** by D.L. Kreher and D.R. Stinson 
+** 
+** The pseudocode environment was originally developed for the book
+** Combinatorial Algorithms: Enumeration, Generation, and Search
+** CRC Press, 1999. 
+Package: pseudocode 
+\pcode@width=\skip67
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancybox\fancybox.
+sty"
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box60
+\shadowsize=\dimen142
+\@Sbox=\box61
+\do@VerbBox=\toks33
+\the@fancyput=\toks34
+\this@fancyput=\toks35
+\EndVerbatimTokens=\toks36
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+)
+\c@pseudocode=\count155
+\c@pseudonum=\count156
+) (style/avm.sty
+\avmdimen=\dimen143
+\avmboxone=\box62
+\avmboxthree=\box63
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.
+sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen144
+\lightrulewidth=\dimen145
+\cmidrulewidth=\dimen146
+\belowrulesep=\dimen147
+\belowbottomsep=\dimen148
+\aboverulesep=\dimen149
+\abovetopsep=\dimen150
+\cmidrulesep=\dimen151
+\cmidrulekern=\dimen152
+\defaultaddspace=\dimen153
+\@cmidla=\count157
+\@cmidlb=\count158
+\@aboverulesep=\dimen154
+\@belowrulesep=\dimen155
+\@thisruleclass=\count159
+\@lastruleclass=\count160
+\@thisrulewidth=\dimen156
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tikz-qtree\tikz-qt
+ree.sty"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\
+tikz.sty"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+.sty"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfr
+cs.sty"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-common.tex"
+\pgfutil@everybye=\toks37
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-common-lists.tex"))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-latex.def"
+\pgfutil@abb=\box64
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+frcs.code.tex"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision
+.tex")
+Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
+))
+Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+core.sty"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
+fsys.sty"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys.code.tex"
+Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeys.code.tex"
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks40
+))
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
+\pgf@xd=\dimen167
+\pgf@yd=\dimen168
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count161
+\c@pgf@countb=\count162
+\c@pgf@countc=\count163
+\c@pgf@countd=\count164
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+\pgf@sys@id@count=\count165
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgf.cfg"
+File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
+)))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfsyssoftpath@smallbuffer@items=\count166
+\pgfsyssoftpath@bigbuffer@items=\count167
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcore.code.tex"
+Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+calc.code.tex"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+util.code.tex")
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+parser.code.tex"
+\pgfmath@dimen=\dimen169
+\pgfmath@count=\count168
+\pgfmath@box=\box65
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.code.tex"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.basic.code.tex")
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.trigonometric.code.tex")
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.random.code.tex")
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.comparison.code.tex")
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.base.code.tex")
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.round.code.tex")
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.misc.code.tex")
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.integerarithmetics.code.tex")))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+float.code.tex"
+\c@pgfmathroundto@lastzeros=\count169
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.
+code.tex")
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@picminx=\dimen170
+\pgf@picmaxx=\dimen171
+\pgf@picminy=\dimen172
+\pgf@picmaxy=\dimen173
+\pgf@pathminx=\dimen174
+\pgf@pathmaxx=\dimen175
+\pgf@pathminy=\dimen176
+\pgf@pathmaxy=\dimen177
+\pgf@xx=\dimen178
+\pgf@xy=\dimen179
+\pgf@yx=\dimen180
+\pgf@yy=\dimen181
+\pgf@zx=\dimen182
+\pgf@zy=\dimen183
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@path@lastx=\dimen184
+\pgf@path@lasty=\dimen185
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@shorten@end@additional=\dimen186
+\pgf@shorten@start@additional=\dimen187
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfpic=\box66
+\pgf@hbox=\box67
+\pgf@layerbox@main=\box68
+\pgf@picture@serial@count=\count170
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgflinewidth=\dimen188
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@pt@x=\dimen189
+\pgf@pt@y=\dimen190
+\pgf@pt@temp=\dimen191
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorequick.code.tex"
+File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfarrowsep=\dimen192
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@max=\dimen193
+\pgf@sys@shading@range@num=\count171
+\pgf@shadingcount=\count172
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfexternal@startupbox=\box69
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfnodeparttextbox=\box70
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@nodesepstart=\dimen194
+\pgf@nodesepend=\dimen195
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgff
+or.sty"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfk
+eys.sty"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeys.code.tex"))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.s
+ty"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex"))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+ffor.code.tex"
+Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex")
+\pgffor@iter=\dimen196
+\pgffor@skip=\dimen197
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz\tikz.code.tex"
+Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@plot@mark@count=\count173
+\pgfplotmarksize=\dimen198
+)
+\tikz@lastx=\dimen199
+\tikz@lasty=\dimen256
+\tikz@lastxsaved=\dimen257
+\tikz@lastysaved=\dimen258
+\tikz@lastmovetox=\dimen259
+\tikz@lastmovetoy=\dimen260
+\tikzleveldistance=\dimen261
+\tikzsiblingdistance=\dimen262
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count174
+\tikznumberofchildren=\count175
+\tikznumberofcurrentchild=\count176
+\tikz@fig@count=\count177
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+odulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfmatrixcurrentrow=\count178
+\pgfmatrixcurrentcolumn=\count179
+\pgf@matrix@numberofcolumns=\count180
+)
+\tikz@expandcount=\count181
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tikz-qtree\pgftree
+.sty"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tikz-qtree\pgfsubp
+ic.sty"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/tikz-qtree\pgfsu
+bpic.tex"
+\pgf@subpicminx=\dimen263
+\pgf@subpicminy=\dimen264
+\pgf@subpicmaxx=\dimen265
+\pgf@subpicmaxy=\dimen266
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/tikz-qtree\pgftr
+ee.tex"
+\levelsep=\dimen267
+\subtreesep=\dimen268
+\smuggle@levelsep=\dimen269
+\smuggle@subtreesep=\dimen270
+\this@levelsep=\dimen271
+\this@subtreesep=\dimen272
+\pgftree@childx=\dimen273
+\pgftree@savechildx=\dimen274
+\pgftree@childy=\dimen275
+\pgftree@savechildy=\dimen276
+\pgftree@childi=\count182
+\pgftree@savechildi=\count183
+\pgftree@level=\count184
+\pgftree@depth=\dimen277
+\pgf@subpic@hbox@children=\box75
+\pgf@subpic@minx@children=\dimen278
+\pgf@subpic@miny@children=\dimen279
+\pgf@subpic@maxx@children=\dimen280
+\pgf@subpic@maxy@children=\dimen281
+\pgftree@lastchildx=\dimen282
+\pgftree@lastchildy=\dimen283
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/tikz-qtree\tikz-
+qtree.tex"
+\@result=\toks49
+\child@list=\toks50
+\root@node=\toks51
+)) (style/btree.sty
+Package: style/btree 
+
+Document Style `weiw_BTree - Support drawing B+-Tree (ver 0.999)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryarrows.code.tex"
+File: tikzlibraryarrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryarrows.code.tex"
+File: pgflibraryarrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\arrowsize=\dimen284
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryshapes.code.tex"
+File: tikzlibraryshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryshapes.geometric.code.tex"
+File: tikzlibraryshapes.geometric.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
+apes\pgflibraryshapes.geometric.code.tex"
+File: pgflibraryshapes.geometric.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryshapes.misc.code.tex"
+File: tikzlibraryshapes.misc.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
+apes\pgflibraryshapes.misc.code.tex"
+File: pgflibraryshapes.misc.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryshapes.symbols.code.tex"
+File: tikzlibraryshapes.symbols.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
+apes\pgflibraryshapes.symbols.code.tex"
+File: pgflibraryshapes.symbols.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryshapes.arrows.code.tex"
+File: tikzlibraryshapes.arrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
+apes\pgflibraryshapes.arrows.code.tex"
+File: pgflibraryshapes.arrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryshapes.callouts.code.tex"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
+apes\pgflibraryshapes.callouts.code.tex"))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryshapes.multipart.code.tex"
+File: tikzlibraryshapes.multipart.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
+apes\pgflibraryshapes.multipart.code.tex"
+File: pgflibraryshapes.multipart.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfnodepartlowerbox=\box76
+\pgfnodeparttwobox=\box77
+\pgfnodepartthreebox=\box78
+\pgfnodepartfourbox=\box79
+\pgfnodeparttwentybox=\box80
+\pgfnodepartnineteenbox=\box81
+\pgfnodeparteighteenbox=\box82
+\pgfnodepartseventeenbox=\box83
+\pgfnodepartsixteenbox=\box84
+\pgfnodepartfifteenbox=\box85
+\pgfnodepartfourteenbox=\box86
+\pgfnodepartthirteenbox=\box87
+\pgfnodeparttwelvebox=\box88
+\pgfnodepartelevenbox=\box89
+\pgfnodeparttenbox=\box90
+\pgfnodepartninebox=\box91
+\pgfnodeparteightbox=\box92
+\pgfnodepartsevenbox=\box93
+\pgfnodepartsixbox=\box94
+\pgfnodepartfivebox=\box95
+)))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarydecorations.code.tex"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen285
+\pgfdecoratedremainingdistance=\dimen286
+\pgfdecoratedinputsegmentcompleteddistance=\dimen287
+\pgfdecoratedinputsegmentremainingdistance=\dimen288
+\pgf@decorate@distancetomove=\dimen289
+\pgf@decorate@repeatstate=\count185
+\pgfdecorationsegmentamplitude=\dimen290
+\pgfdecorationsegmentlength=\dimen291
+)
+\tikz@lib@dec@box=\box96
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarymatrix.code.tex"
+File: tikzlibrarymatrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
+sty"
+Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
+sty"
+Package: etoolbox 2019/09/09 v2.5g e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count186
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count187
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count188
+\c@listtotal=\count189
+\c@listcount=\count190
+\c@liststart=\count191
+\c@liststop=\count192
+\c@citecount=\count193
+\c@citetotal=\count194
+\c@multicitecount=\count195
+\c@multicitetotal=\count196
+\c@instcount=\count197
+\c@maxnames=\count198
+\c@minnames=\count199
+\c@maxitems=\count266
+\c@minitems=\count267
+\c@citecounter=\count268
+\c@maxcitecounter=\count269
+\c@savedcitecounter=\count270
+\c@uniquelist=\count271
+\c@uniquename=\count272
+\c@refsection=\count273
+\c@refsegment=\count274
+\c@maxextratitle=\count275
+\c@maxextratitleyear=\count276
+\c@maxextraname=\count277
+\c@maxextradate=\count278
+\c@maxextraalpha=\count279
+\c@abbrvpenalty=\count280
+\c@highnamepenalty=\count281
+\c@lownamepenalty=\count282
+\c@maxparens=\count283
+\c@parenlevel=\count284
+\blx@tempcnta=\count285
+\blx@tempcntb=\count286
+\blx@tempcntc=\count287
+\blx@maxsection=\count288
+\blx@maxsegment@0=\count289
+\blx@notetype=\count290
+\blx@parenlevel@text=\count291
+\blx@parenlevel@foot=\count292
+\blx@sectionciteorder@0=\count293
+\blx@entrysetcounter=\count294
+\labelnumberwidth=\skip68
+\labelalphawidth=\skip69
+\biblabelsep=\skip70
+\bibitemsep=\skip71
+\bibnamesep=\skip72
+\bibinitsep=\skip73
+\bibparsep=\skip74
+\bibhang=\skip75
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\blx@langwohyphens=\language82
+\c@mincomprange=\count295
+\c@maxcomprange=\count296
+\c@mincompwidth=\count297
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm.de
+f"
+File: blx-dm.def 2019/08/31 v3.13a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count298
+\c@savedafterword=\count299
+\c@annotator=\count300
+\c@savedannotator=\count301
+\c@author=\count302
+\c@savedauthor=\count303
+\c@bookauthor=\count304
+\c@savedbookauthor=\count305
+\c@commentator=\count306
+\c@savedcommentator=\count307
+\c@editor=\count308
+\c@savededitor=\count309
+\c@editora=\count310
+\c@savededitora=\count311
+\c@editorb=\count312
+\c@savededitorb=\count313
+\c@editorc=\count314
+\c@savededitorc=\count315
+\c@foreword=\count316
+\c@savedforeword=\count317
+\c@holder=\count318
+\c@savedholder=\count319
+\c@introduction=\count320
+\c@savedintroduction=\count321
+\c@namea=\count322
+\c@savednamea=\count323
+\c@nameb=\count324
+\c@savednameb=\count325
+\c@namec=\count326
+\c@savednamec=\count327
+\c@translator=\count328
+\c@savedtranslator=\count329
+\c@shortauthor=\count330
+\c@savedshortauthor=\count331
+\c@shorteditor=\count332
+\c@savedshorteditor=\count333
+\c@labelname=\count334
+\c@savedlabelname=\count335
+\c@institution=\count336
+\c@savedinstitution=\count337
+\c@lista=\count338
+\c@savedlista=\count339
+\c@listb=\count340
+\c@savedlistb=\count341
+\c@listc=\count342
+\c@savedlistc=\count343
+\c@listd=\count344
+\c@savedlistd=\count345
+\c@liste=\count346
+\c@savedliste=\count347
+\c@listf=\count348
+\c@savedlistf=\count349
+\c@location=\count350
+\c@savedlocation=\count351
+\c@organization=\count352
+\c@savedorganization=\count353
+\c@origlocation=\count354
+\c@savedoriglocation=\count355
+\c@origpublisher=\count356
+\c@savedorigpublisher=\count357
+\c@publisher=\count358
+\c@savedpublisher=\count359
+\c@language=\count360
+\c@savedlanguage=\count361
+\c@origlanguage=\count362
+\c@savedoriglanguage=\count363
+\c@pageref=\count364
+\c@savedpageref=\count365
+\shorthandwidth=\skip76
+\shortjournalwidth=\skip77
+\shortserieswidth=\skip78
+\shorttitlewidth=\skip79
+\shortauthorwidth=\skip80
+\shorteditorwidth=\skip81
+\locallabelnumberwidth=\skip82
+\locallabelalphawidth=\skip83
+\localshorthandwidth=\skip84
+\localshortjournalwidth=\skip85
+\localshortserieswidth=\skip86
+\localshorttitlewidth=\skip87
+\localshortauthorwidth=\skip88
+\localshorteditorwidth=\skip89
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-compa
+t.def"
+File: blx-compat.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
+def"
+File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
+\c@textcitecount=\count366
+\c@textcitetotal=\count367
+\c@textcitemaxnames=\count368
+\c@biburlbigbreakpenalty=\count369
+\c@biburlbreakpenalty=\count370
+\c@biburlnumpenalty=\count371
+\c@biburlucpenalty=\count372
+\c@biburllcpenalty=\count373
+\biburlbigskip=\muskip12
+\biburlnumskip=\muskip13
+\biburlucskip=\muskip14
+\biburllcskip=\muskip15
+\c@smartand=\count374
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\numer
+ic.bbx"
+File: numeric.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\stand
+ard.bbx"
+File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count375
+\c@bbx:relatedtotal=\count376
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\numer
+ic.cbx"
+File: numeric.cbx 2019/08/31 v3.13a biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
+cfg"
+File: biblatex.cfg 
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.
+sty"
+Package: csquotes 2019/05/10 v5.2e context-sensitive quotations (JAW)
+\csq@reset=\count377
+\csq@gtype=\count378
+\csq@glevel=\count379
+\csq@qlevel=\count380
+\csq@maxlvl=\count381
+\csq@tshold=\count382
+\csq@ltx@everypar=\toks52
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.
+def"
+File: csquotes.def 2019/05/10 v5.2e csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.
+cfg"
+File: csquotes.cfg 
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datetime\datetime.
+sty"
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fmtcount.
+sty"
+Package: fmtcount 2017/12/24 v3.05
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.st
+y"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.
+tex"
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils
+.tex"
+\XKV@toks=\toks53
+\XKV@tempa@toks=\toks54
+)
+\XKV@depth=\count383
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fcprefix.
+sty"
+Package: fcprefix 2012/09/28
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fcnumpars
+er.sty"
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count384
+))
+\c@padzeroesN=\count385
+\fc@tmpcatcode=\count386
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fc-englis
+h.def"
+File: fc-english.def 2016/01/12
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fc-ngerma
+n.def"
+File: fc-ngerman.def 2012/06/18
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fc-german
+.def"
+File: fc-german.def 2016/01/12
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fc-german
+b.def"
+File: fc-germanb.def 2013/08/17
+))
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fmtcount\fc-ngerma
+nb.def"
+File: fc-ngermanb.def 2013/08/17
+))
+\@DT@modctr=\count387
+\@ordinalctr=\count388
+\@orgargctr=\count389
+\@strctr=\count390
+\@tmpstrctr=\count391
+\@DT@loopN=\count392
+\@DT@X=\count393
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datetime\datetime-
+defaults.sty"
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count394
+\@month=\count395
+\@year=\count396
+\c@HOUR=\count397
+\c@HOURXII=\count398
+\c@MINUTE=\count399
+\c@TOHOUR=\count400
+\c@TOMINUTE=\count401
+\c@SECOND=\count402
+\currenthour=\count403
+\currentminute=\count404
+\currentsecond=\count405
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count406
+\dayofyear=\count407
+\dayofweek=\count408
+LaTeX Info: Redefining \today on input line 736.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datetime\dt-ngerma
+n.def"
+File: dt-ngerman.def 2013/09/10
+LaTeX Info: Redefining \datengerman on input line 86.
+)
+\dt@a=\toks55
+\dt@b=\toks56
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
+sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip90
+\f@nch@O@elh=\skip91
+\f@nch@O@erh=\skip92
+\f@nch@O@olh=\skip93
+\f@nch@O@orh=\skip94
+\f@nch@O@elf=\skip95
+\f@nch@O@erf=\skip96
+\f@nch@O@olf=\skip97
+\f@nch@O@orf=\skip98
+))
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\ngerm
+an.lbx"
+File: ngerman.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\germa
+n.lbx"
+File: german.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\germa
+n.lbx"
+File: german.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\engli
+sh.lbx"
+File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+ (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for OT1+bch on input line 13.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1bch.fd"
+File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
+)
+LaTeX Info: Redefining \microtypecontext on input line 13.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-bch.c
+fg"
+File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
+
+)
+\AtBeginShipoutBox=\box97
+Package hyperref Info: Link coloring ON on input line 13.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
+ty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gettitl
+estring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count409
+)
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
+ (main.out) (main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count410
+\scratchdimen=\dimen292
+\scratchbox=\box98
+\nofMPsegments=\count411
+\nofMParguments=\count412
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count413
+\MPscratchDim=\dimen293
+\MPnumerator=\count414
+\makeMPintoPDFobject=\count415
+\everyMPtoPDFconversion=\toks58
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\c@lstlisting=\count416
+ ABD: EveryShipout initializing macros
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 13.
+Package biblatex Info: Reference segment=0 on input line 13.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-cmr.c
+fg"
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msa.c
+fg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msb.c
+fg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 27.
+
+("C:\Users\julie\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wasysym\uwasy.fd"
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 46.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 46.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
+
+ []
+
+[1
+
+{C:/Users/julie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+ (main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 346.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 346.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 29F9829D803D1D01DF1439F879645151;134.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
+ ) 
+Here is how much of TeX's memory you used:
+ 33094 strings out of 492895
+ 639621 string characters out of 3123735
+ 1222867 words of memory out of 3000000
+ 36337 multiletter control sequences out of 15000+200000
+ 35984 words of font info for 91 fonts, out of 3000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 64i,13n,73p,1092b,2276s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/julie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}<C:/Users/julie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/charter
+/bchb8a.pfb><C:/Users/julie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitst
+rea/charter/bchbi8a.pfb><C:/Users/julie/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/bitstrea/charter/bchr8a.pfb><C:/Users/julie/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/julie/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/julie/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Use
+rs/julie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Users/julie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb><C:/Users/julie/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi5.pfb><C:/Users/julie/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/julie/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/julie/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/
+Users/julie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/Users/julie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr5.pfb><C:/Users/julie/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr7.pfb><C:/Users/julie/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/julie/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/julie/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (1 page, 164420 bytes).
+PDF statistics:
+ 106 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 27165 words of extra memory for PDF output out of 29859 (max. 10000000)
+
