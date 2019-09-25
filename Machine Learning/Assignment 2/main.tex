@@ -70,7 +70,7 @@ Let $\bm{\Omega} \coloneqq \textbf{A}^{T}\textbf{DA}$. From \eqref{eq:1} we see 
 \end{flalign}
 Substituting \eqref{eq:2} and \eqref{eq:3} in \eqref{eq:1} gives the following likelihood:
 \begin{flalign}
-p(\mathcal{D} \mid \bm{\theta}) &= \frac{1}{\sqrt{(2 \pi)^{N} \text{det}(\bm{\Omega})}} \exp\left(-\frac{1}{2}\bigl[(\textbf{t} - \bm{\Psi}\textbf{w})^{T}\bm{\Omega}^{-1}(\textbf{t} - \bm{\Psi}\textbf{w})\right) \notag \\
+p(\mathcal{D} \mid \bm{\theta}) &= \frac{1}{\sqrt{(2 \pi)^{N} \text{det}(\bm{\Omega})}} \exp\left(-\frac{1}{2}(\textbf{t} - \bm{\Psi}\textbf{w})^{T}\bm{\Omega}^{-1}(\textbf{t} - \bm{\Psi}\textbf{w})\right) \notag \\
 &=\frac{1}{\sqrt{(2 \pi)^{N} \text{det}(\textbf{D})}} \exp\left(-\frac{1}{2}(\textbf{t} - \bm{\Psi}\textbf{w})^{T}\textbf{A}^{T}\textbf{D}^{-1}\textbf{A}(\textbf{t} - \bm{\Psi}\textbf{w})\right) \notag \\
 &= \frac{1}{\sqrt{(2 \pi)^{N} \text{det}(\textbf{D})}} \exp\left(-\frac{1}{2}(\textbf{t}^{T} \textbf{A}^{T} \textbf{D}^{-1}\textbf{At} - \textbf{t}^{T}\textbf{A}^{T} \textbf{D}^{-1}\textbf{A} \bm{\Psi} \textbf{w} - \textbf{w}^{T} \bm{\Psi}^{T} \textbf{A}^{T} \textbf{D}^{-1}\textbf{At} + \textbf{w}^{T} \bm{\Psi}^{T} \textbf{A}^{T} \textbf{D}^{-1}\textbf{A} \bm{\Psi} \textbf{w})\right) \notag \\
 &= \frac{1}{\sqrt{(2 \pi)^{N} \text{det}(\textbf{D})}} \exp\left(-\frac{1}{2}(\bm{\tau}^{T} \textbf{D}^{-1} \bm{\tau} - \bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T}\textbf{D}^{-1} \bm{\tau} + \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w})\right) \notag \\
@@ -88,7 +88,7 @@ with $\bm{\tau} \coloneqq$ \textbf{At} and $\bm{\Phi} \coloneqq$ \textbf{A}$\bm{
 We can define the determinant of \eqref{eq:2} as det(\textbf{D}) = $\prod_{i = 1}^{N} d_{ii}$. Substiting this in \eqref{eq:4} yields:
 \begin{flalign}
 p(\mathcal{D} \mid \bm{\theta}) &= \frac{1}{\sqrt{(2 \pi)^{N} \prod_{i = i}^{N} d_{ii}}} \exp \left(-\frac{1}{2} \sum_{i = 1}^{N} (\tau_{i} - \bm{\phi}_{i}\textbf{w})^{2} \frac{1}{d_{ii}} \right) \notag \\
-&= \prod_{i = i}^{N} \frac{1}{\sqrt{2 \pi d_{ii}}} \exp\left(\frac{1}{2 d_{ii}} \left(\tau_{i} - \bm{\phi}_{i} \textbf{w} \right)^{2} \right) \notag \\
+&= \prod_{i = i}^{N} \frac{1}{\sqrt{2 \pi d_{ii}}} \exp\left(-\frac{1}{2 d_{ii}} \left(\tau_{i} - \bm{\phi}_{i} \textbf{w} \right)^{2} \right) \notag \\
 &= \prod_{i = i}^{N} \mathcal{N}(\tau_{i} \mid \bm{\phi}_{i} \textbf{w},~ d_{ii}) \label{eq:5}
 &&
 \end{flalign}
@@ -137,7 +137,21 @@ If we apply Bayes rule as in exercise \textbf{e)} and take the logarithm one can
 \ln p(\textbf{w} \mid \mathcal{D}) &= \ln p(\mathcal{D} \mid \textbf{w}) + \ln p(\textbf{w}) - \ln p(\mathcal{D}) \label{eq:9}
 &&
 \end{flalign}
-First we apply
+First we apply this for the matrix form. The likelihood, prior and evidence are represented by respectively \eqref{eq:4}, \eqref{eq:6} and ????. First we determine the logarithm of these probability distributions:
+\begin{flalign}
+\ln p(\mathcal{D} \mid \textbf{w}) &= -\frac{N}{2} \ln \left(2\pi\right) - \frac{1}{2} \ln \left(\text{det}(\textbf{D}) \right) - \frac{1}{2} \left(\bm{\tau}^{T}\textbf{D}^{-1}\bm{\tau} - 2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} + \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} \right) \notag \\
+&= \frac{1}{2} \left(2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \bm{\tau}^{T}\textbf{D}^{-1}\bm{\tau} - N \ln(2\pi) - \ln(\text{det}(\textbf{D})) \right) \notag \\
+&= \frac{1}{2} \left(2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} + C_{1} \right) \label{eq:10}
+&&
+\end{flalign}
+with $C_{1} = -\bm{\tau}^{T}\textbf{D}^{-1}\bm{\tau} - N \ln(2\pi) - \ln(\text{det}(\textbf{D}))$. In \eqref{eq:7} we already found the constant value of the log-prior:
+\begin{flalign}
+\ln p(\textbf{w}) &= -\frac{M}{2} \ln(2\pi\alpha) - \frac{\alpha}{2}\textbf{w}^{T}\textbf{w} \notag \\
+&= -\frac{\alpha}{2}\textbf{w}^{T}\textbf{w} + C_{2}
+&&
+\end{flalign}
+with $C_{2} = -\frac{M}{2} \ln(2\pi\alpha)$
+
 
 
 \end{document}
