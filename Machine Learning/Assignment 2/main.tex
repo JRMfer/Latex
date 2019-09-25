@@ -137,20 +137,37 @@ If we apply Bayes rule as in exercise \textbf{e)} and take the logarithm one can
 \ln p(\textbf{w} \mid \mathcal{D}) &= \ln p(\mathcal{D} \mid \textbf{w}) + \ln p(\textbf{w}) - \ln p(\mathcal{D}) \label{eq:9}
 &&
 \end{flalign}
-First we apply this for the matrix form. The likelihood, prior and evidence are represented by respectively \eqref{eq:4}, \eqref{eq:6} and ????. First we determine the logarithm of these probability distributions:
+First we apply this for the matrix form. The likelihood and prior are represented by respectively \eqref{eq:4} and \eqref{eq:6}. First we determine the logarithm of these probability distributions:
 \begin{flalign}
 \ln p(\mathcal{D} \mid \textbf{w}) &= -\frac{N}{2} \ln \left(2\pi\right) - \frac{1}{2} \ln \left(\text{det}(\textbf{D}) \right) - \frac{1}{2} \left(\bm{\tau}^{T}\textbf{D}^{-1}\bm{\tau} - 2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} + \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} \right) \notag \\
 &= \frac{1}{2} \left(2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \bm{\tau}^{T}\textbf{D}^{-1}\bm{\tau} - N \ln(2\pi) - \ln(\text{det}(\textbf{D})) \right) \notag \\
 &= \frac{1}{2} \left(2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} + C_{1} \right) \label{eq:10}
 &&
 \end{flalign}
-with $C_{1} = -\bm{\tau}^{T}\textbf{D}^{-1}\bm{\tau} - N \ln(2\pi) - \ln(\text{det}(\textbf{D}))$. In \eqref{eq:7} we already found the constant value of the log-prior:
+with $C_{1} = -\bm{\tau}^{T}\textbf{D}^{-1}\bm{\tau} - N \ln(2\pi) - \ln(\text{det}(\textbf{D}))$.
+\newline
+\newline
+In \eqref{eq:7} we already found the constant value of the log-prior:
 \begin{flalign}
 \ln p(\textbf{w}) &= -\frac{M}{2} \ln(2\pi\alpha) - \frac{\alpha}{2}\textbf{w}^{T}\textbf{w} \notag \\
-&= -\frac{\alpha}{2}\textbf{w}^{T}\textbf{w} + C_{2}
+&= -\frac{\alpha}{2}\textbf{w}^{T}\textbf{w} + C_{2} \label{eq:11}
 &&
 \end{flalign}
-with $C_{2} = -\frac{M}{2} \ln(2\pi\alpha)$
+with $C_{2} = -\frac{M}{2} \ln(2\pi\alpha)$ 
+\newline
+\newline
+This leaves us with the log-evidence. As this does not depend on \textbf{w} we can set this equal to a constant:
+\begin{flalign}
+\ln p(\mathcal{D}) &= C_{3} \label{eq:12}
+&&
+\end{flalign}
+Substituting \eqref{eq:10}, \eqref{eq:11} and \eqref{eq:12} in \eqref{eq:9} yields:
+\begin{flalign}
+\ln p(\textbf{w} \mid \mathcal{D}) &= \frac{1}{2} \left(2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} + C_{1} \right)  - \frac{\alpha}{2}\textbf{w}^{T}\textbf{w} + C_{2} +  C_{3} \notag \\
+&= \frac{1}{2} \left(2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} \right) -\frac{\alpha}{2}\textbf{w}^{T}\textbf{w} + C \label{eq:13}
+&&
+\end{flalign}
+with $C = \frac{1}{2}C_{1} + C_{2} + C_{3}$.
 
 
 
