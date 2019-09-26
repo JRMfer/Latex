@@ -85,11 +85,11 @@ with $\bm{\tau} \coloneqq$ \textbf{At} and $\bm{\Phi} \coloneqq$ \textbf{A}$\bm{
 \textbf{c)} \textit{Factorize the distribution, into a product of univariate Gaussians. Write $\phi_{i}$ for the $i$-th row of the matrix $\Phi$ Hint: The determinant of a diagonal matrix can be expressed as the product of its elements.}:
 \newline
 \newline
-We can define the determinant of \eqref{eq:2} as det(\textbf{D}) = $\prod_{i = 1}^{N} d_{ii}$. Substiting this in \eqref{eq:4} yields:
+We can define the determinant of \eqref{eq:2} as det(\textbf{D}) = $\prod_{i = 1}^{N} d_{i}$. Substiting this in \eqref{eq:4} yields:
 \begin{flalign}
-p(\mathcal{D} \mid \bm{\theta}) &= \frac{1}{\sqrt{(2 \pi)^{N} \prod_{i = i}^{N} d_{ii}}} \exp \left(-\frac{1}{2} \sum_{i = 1}^{N} (\tau_{i} - \bm{\phi}_{i}\textbf{w})^{2} \frac{1}{d_{ii}} \right) \notag \\
-&= \prod_{i = i}^{N} \frac{1}{\sqrt{2 \pi d_{ii}}} \exp\left(-\frac{1}{2 d_{ii}} \left(\tau_{i} - \bm{\phi}_{i} \textbf{w} \right)^{2} \right) \notag \\
-&= \prod_{i = i}^{N} \mathcal{N}(\tau_{i} \mid \bm{\phi}_{i} \textbf{w},~ d_{ii}) \label{eq:5}
+p(\mathcal{D} \mid \bm{\theta}) &= \frac{1}{\sqrt{(2 \pi)^{N} \prod_{i = i}^{N} d_{i}}} \exp \left(-\frac{1}{2} \sum_{i = 1}^{N} (\tau_{i} - \bm{\phi}_{i}\textbf{w})^{2} \frac{1}{d_{i}} \right) \notag \\
+&= \prod_{i = i}^{N} \frac{1}{\sqrt{2 \pi d_{i}}} \exp\left(-\frac{1}{2 d_{i}} \left(\tau_{i} - \bm{\phi}_{i} \textbf{w} \right)^{2} \right) \notag \\
+&= \prod_{i = i}^{N} \mathcal{N}(\tau_{i} \mid \bm{\phi}_{i} \textbf{w},~ d_{i}) \label{eq:5}
 &&
 \end{flalign}
 
@@ -99,13 +99,13 @@ p(\mathcal{D} \mid \bm{\theta}) &= \frac{1}{\sqrt{(2 \pi)^{N} \prod_{i = i}^{N} 
 \begin{flalign}
 p(\textbf{w}) &= \mathcal{N}(\textbf{w} \mid \bm{0}, \alpha \textbf{I}) \notag \\
 &= \frac{1}{\sqrt{(2\pi)^{M} \text{det}(\alpha \textbf{I})}} \exp\left(-\frac{1}{2} (\textbf{w} - \bm{0})^{T}(\alpha \textbf{I})^{-1}(\textbf{w} - \bm{0})  \right) \notag \\
-&= \frac{1}{\sqrt{(2 \pi \alpha)^{M}}} \exp\left(-\frac{\alpha}{2} \textbf{w}^{T} \textbf{w} \right) \label{eq:6}
+&= \frac{1}{\sqrt{(2 \pi \alpha)^{M}}} \exp\left(-\frac{1}{2\alpha} \textbf{w}^{T} \textbf{w} \right) \label{eq:6}
 &&
 \end{flalign}
 Subsequentely, we take the natural logarithm of \eqref{eq:6} to obtain the logarithm of the prior:
 \begin{flalign}
-\ln p(\textbf{w}) &= -\frac{M}{2} \ln(2\pi\alpha) - \frac{\alpha}{2}\textbf{w}^{T}\textbf{w} \notag \\
-&= -\frac{\alpha}{2}\textbf{w}^{T}\textbf{w} + C \label{eq:7}
+\ln p(\textbf{w}) &= -\frac{M}{2} \ln(2\pi\alpha) - \frac{1}{2\alpha}\textbf{w}^{T}\textbf{w} \notag \\
+&= -\frac{1}{2\alpha}\textbf{w}^{T}\textbf{w} + C \label{eq:7}
 &&
 \end{flalign}
 
@@ -149,8 +149,8 @@ with $C_{1} = -\bm{\tau}^{T}\textbf{D}^{-1}\bm{\tau} - N \ln(2\pi) - \ln(\text{d
 \newline
 In \eqref{eq:7} we already found the constant value of the log-prior:
 \begin{flalign}
-\ln p(\textbf{w}) &= -\frac{M}{2} \ln(2\pi\alpha) - \frac{\alpha}{2}\textbf{w}^{T}\textbf{w} \notag \\
-&= -\frac{\alpha}{2}\textbf{w}^{T}\textbf{w} + C_{2} \label{eq:11}
+\ln p(\textbf{w}) &= -\frac{M}{2} \ln(2\pi\alpha) - \frac{1}{2\alpha}\textbf{w}^{T}\textbf{w} \notag \\
+&= -\frac{1}{2\alpha}\textbf{w}^{T}\textbf{w} + C_{2} \label{eq:11}
 &&
 \end{flalign}
 with $C_{2} = -\frac{M}{2} \ln(2\pi\alpha)$ 
@@ -163,12 +163,52 @@ This leaves us with the log-evidence. As this does not depend on \textbf{w} we c
 \end{flalign}
 Substituting \eqref{eq:10}, \eqref{eq:11} and \eqref{eq:12} in \eqref{eq:9} yields:
 \begin{flalign}
-\ln p(\textbf{w} \mid \mathcal{D}) &= \frac{1}{2} \left(2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} + C_{1} \right)  - \frac{\alpha}{2}\textbf{w}^{T}\textbf{w} + C_{2} +  C_{3} \notag \\
-&= \frac{1}{2} \left(2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} \right) -\frac{\alpha}{2}\textbf{w}^{T}\textbf{w} + C \label{eq:13}
+\ln p(\textbf{w} \mid \mathcal{D}) &= \frac{1}{2} \left(2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} + C_{1} \right)  - \frac{1}{2\alpha}\textbf{w}^{T}\textbf{w} + C_{2} +  C_{3} \notag \\
+&= \frac{1}{2} \left(2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} \right) -\frac{1}{2\alpha}\textbf{w}^{T}\textbf{w} + C \label{eq:13}
 &&
 \end{flalign}
 with $C = \frac{1}{2}C_{1} + C_{2} + C_{3}$.
+\newline
+\newline
+Now similar steps are repeated for the factorized component form of the likelihood \eqref{eq:5}. Note that the derivation of the constants, and thus equations, for the \textit{prior} and \textit{evidence} are the same as in respectively \eqref{eq:11} and \eqref{eq:12}.
+\begin{flalign}
+\ln p(\textbf{w} \mid \mathcal{D}) &= -\frac{1}{2} \sum_{i = 1}^{N} \ln(2\pi) + \ln(d_{i}) + \frac{1}{d_{i}} (\bm{\tau}_{i} - \bm{\phi}_{i}\textbf{w})^{2} \notag \\
+&= -\frac{N}{2} \ln(2\pi) - \frac{1}{2} \ln(\text{det}(\textbf{D})) -\frac{1}{2} (\bm{\tau} - \bm{\Phi}\textbf{w})^{T}\textbf{D}^{-1}(\bm{\tau} - \bm{\Phi}\textbf{w}) \notag \\
+&= \frac{1}{2} \left(2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \bm{\tau}^{T}\textbf{D}^{-1}\bm{\tau} - N \ln(2\pi) - \ln(\text{det}(\textbf{D})) \right) \notag \\
+&= \frac{1}{2} \left(2\bm{\tau}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} - \textbf{w}^{T} \bm{\Phi}^{T} \textbf{D}^{-1} \bm{\Phi} \textbf{w} + C_{1} \right) \label{eq:14}
+&&
+\end{flalign}
+with $C_{1} = -\bm{\tau}^{T}\textbf{D}^{-1}\bm{\tau} - N \ln(2\pi) - \ln(\text{det}(\textbf{D}))$.
+\newline
+\newline
+As we see \eqref{eq:14} is the same \textit{log-likelihood} as in \eqref{eq:10}, and thus the \textit{log-posterior} is of the same form as in \eqref{eq:13}.
+\newline
+\newline
+The hardest part of finding the full posterior distribution is to determine the distribution of the \textit{evidence}. However, finding the MAP is done by maximizing the posterior with respect to \textbf{w}, and thus all the terms that do not depend on \textbf{w} drop out (e.g. the \textit{evidence}). Hence, finding the MAP is simpler.
 
+\bigskip
 
+\textbf{g)} \textit{Solve for $\textbf{w}_{MAP}$ by first taking the derivative of the \underline{log-posterior} with respect to \text{w}, then setting it to 0 and finally solving for \textbf{w}.}
+\begin{flalign}
+\frac{\partial \ln p(\textbf{w} \mid \mathcal{D})}{\partial \textbf{w}} &= \bm{\Phi}^{T}\textbf{D}^{-1}\bm{\tau} - \bm{\Phi}^{T}\textbf{D}^{-1}\bm{\Phi}\textbf{w} - \alpha^{-1} \textbf{w} = 0 \notag \\
+&\Leftrightarrow (\alpha^{-1} \textbf{I} + \bm{\Phi}^{T}\textbf{D}^{-1}\bm{\Phi})\textbf{w} = \bm{\Phi}^{T}\textbf{D}^{-1}\bm{\tau} \notag \\
+\implies \textbf{w}_{MAP} &= (\alpha^{-1} \textbf{I} + \bm{\Phi}^{T}\textbf{D}^{-1}\bm{\Phi})^{-1} \bm{\Phi}^{T}\textbf{D}^{-1}\bm{\tau} \label{eq:15}
+&&
+\end{flalign}
+
+\bigskip
+
+\textbf{h)} \textit{Express the solution for $\textbf{w}_{MAP}$ in terms of the original quantities \textbf{t} and $\bm{\Psi}$ to end up with the final solution stated above.}
+\begin{flalign}
+\textbf{w}_{MAP} &= (\alpha^{-1} \textbf{I} + (\textbf{A}\bm{\Psi})^{T}\textbf{D}^{-1}\textbf{A}\bm{\Psi})^{-1} (\textbf{A}\bm{\Psi})^{T}\textbf{D}^{-1}\textbf{At} \notag \\
+&= (\alpha^{-1} \textbf{I} + \bm{\Psi}^{T}\textbf{A}^{T}\textbf{D}^{-1}\textbf{A}\bm{\Psi})^{-1} \bm{\Psi}^{T}\textbf{A}^{T}\textbf{D}^{-1}\textbf{At} \notag \\
+&= (\alpha^{-1} \textbf{I} + \bm{\Psi}^{T}\bm{\Omega}^{-1}\bm{\Psi})^{-1}\bm{\Psi}^{T}\bm{\Omega}^{-1}\textbf{t} \label{eq:16}
+&&
+\end{flalign}
+
+\bigskip
+
+\section{\underline{ML estimate of angle measurements}}
+\textit{Find the maximum likelihood estimate of the angle $\theta$, given that you have two independent noisy measurements, c and s, where c is a measure of the cosine, and s is a measure of the sine, of the angle $\theta$. Assume each measurements has a known Gaussian standard deviation $\sigma$ (same in both cases). To make the solution unique assume $\theta \in [-\pi/2, \pi/2]$. Hint: use that $\sin^{2} \theta + \cos^{2} \theta = 1 \forall \theta \in [0, 2\pi)$ and gather all terms which are independent of $\theta$ into a constant $C$.}
 
 \end{document}
